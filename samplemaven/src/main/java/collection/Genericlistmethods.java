@@ -16,5 +16,11 @@ public class Genericlistmethods {
 	    System.out.println(a.get(2));
 	    a.set(1, "Black");
 	    System.out.println(a);
+	    System.out.println(a.indexOf("Green"));
+	    System.out.println(a.lastIndexOf("Green"));
+	    a.remove(2);
+	    System.out.println(a);
+	    System.out.println("Contains" +a.contains("Blue"));
+	    
 	}
 }
